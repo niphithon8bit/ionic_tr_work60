@@ -6,22 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  public functionPages = [
+  public menuPage = [
     {
       title: 'ข้อมูลพื้นฐาน',
-      url: '/basedata'
+      url: 'basedata',
+      icon: 'document'
     },
     {
       title: 'จัดการวิทยากร',
-      url: '/expert'
-    },
-    {
-      title: 'จัดการโครงการฝึกอบรม',
-      url: '/expert'
-    },
-    {
-      title: 'จัดการบัญชีผู้ใช้งาน',
-      url: '/expert'
+      url: 'expert',
+      icon: 'person'
     }
     
   ];

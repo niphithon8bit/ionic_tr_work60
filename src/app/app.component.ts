@@ -23,7 +23,8 @@ export class AppComponent {
     },
     {
       title: 'basedata',
-      url: '/basedata'
+      url: 'home/basedata',
+      icon: 'document'
     }
   ];
 

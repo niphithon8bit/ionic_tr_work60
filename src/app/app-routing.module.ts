@@ -16,7 +16,7 @@ const routes: Routes = [
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
   },
   {
-    path: 'basedata',
+    path: 'home/basedata',
     loadChildren: () => import('./basedata/basedata.module').then( m => m.BaseDataPageModule)
   }
 ];

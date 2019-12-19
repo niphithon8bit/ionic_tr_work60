@@ -7,9 +7,15 @@
   background: #333;
  }
 
+ion-icon{
+  margin-left: 30%;
+}
+
 
  .card
  {
+      max-width: 140px;
+      max-height: 150px;
       margin-bottom: -15px !important;
       margin-right: 1px !important;
       margin-left: 1px !important;

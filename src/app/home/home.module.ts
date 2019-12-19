@@ -12,10 +12,7 @@ import { BaseDataPage } from '../basedata/basedata.page';
     FormsModule,
     IonicModule,
     RouterModule.forChild([
-      {
-        path: '',
-        component: HomePage
-      }
+      { path: '',component: HomePage }
     ])
   ],
   declarations: [HomePage]
